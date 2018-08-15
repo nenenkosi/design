@@ -1,14 +1,71 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+<ion-header color="danger">
+  <ion-toolbar color="danger">
+    <ion-buttons start>
+      <button ion-button icon-only color="royal">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Send To...</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal">
+          <ion-chip>
+       <ion-avatar end>
+        <img src="../../assets/imgs/♡SIPHO♡ 20160731_100506.jpg">
+       </ion-avatar>
+       </ion-chip>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="img"></div>
+  <ion-avatar class="avt">
+      <img class="avt" src="../../assets/imgs/♡SIPHO♡ 20160731_100506.jpg"> 
+  </ion-avatar>
+  <h1>JOHN DOE</h1>
+  <P>Lorem ipsum is dummy text</P>
+ 
+  <div class="star">
+  <ion-icon  name="star"></ion-icon>
+  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+</div>
+<p class="small">dfd ryt rty</p>
+<!-- <div class="asdf"> -->
+<ion-list>
+
+    <ion-item>
+      <ion-label  stacked><b>Offer</b></ion-label>
+      <ion-input type="text" placeholder="Type You Offer"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label stacked><b>Lorem Ipsum</b></ion-label>
+      <ion-input type="text" placeholder="Lorem Ipsum"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+  <h6>Your Message</h6>
+<!-- </div> -->
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+      <ion-buttons start>
+          <button ion-button icon-end color="dark">
+            <ion-icon name="attach"></ion-icon>
+          </button>
+        </ion-buttons>
+   <ion-input type="text" placeholder="Type your message..."></ion-input>
+    <ion-buttons end>
+      <button ion-button icon-end color="danger">
+        <ion-icon name="happy"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end class="round">
+      <button ion-button icon-end color="light">
+        <ion-icon class="snd" name="md-send"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
